@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System</title>
+</head>
+<body>
+
+    <header>
+        <h1>🍔 Online Food Ordering</h1>
+        <p>Select your favorite dishes and place your order.</p>
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Menu</h2>
+
+            <form>
+
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <th>Select</th>
+                        <th>Food Item</th>
+                        <th>Price</th>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="Burger"></td>
+                        <td>Burger</td>
+                        <td>₹120</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="Pizza"></td>
+                        <td>Pizza</td>
+                        <td>₹250</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="Sandwich"></td>
+                        <td>Sandwich</td>
+                        <td>₹100</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="Pasta"></td>
+                        <td>Pasta</td>
+                        <td>₹180</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="French Fries"></td>
+                        <td>French Fries</td>
+                        <td>₹90</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="food" value="Soft Drink"></td>
+                        <td>Soft Drink</td>
+                        <td>₹50</td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <h2>Customer Details</h2>
+
+                <label>Full Name:</label><br>
+                <input type="text" name="fullname" required><br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel" name="phone" required><br><br>
+
+                <label>Delivery Address:</label><br>
+                <textarea name="address" rows="4" cols="40" required></textarea><br><br>
+
+                <label>Payment Method:</label><br>
+                <input type="radio" name="payment" value="Cash on Delivery"> Cash on Delivery
+                <input type="radio" name="payment" value="Online Payment"> Online Payment
+                <br><br>
+
+                <label>Special Instructions:</label><br>
+                <textarea name="instructions" rows="3" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Place Order">
+                <input type="reset" value="Clear Order">
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Order Summary (Simulation)</h2>
+            <p>
+                After selecting menu items and clicking "Place Order",
+                the order details would normally be processed and sent
+                to the restaurant for preparation and delivery.
+            </p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p> 2026 Online Food Ordering System</p>
+    </footer>
+
+</body>
+</html>
