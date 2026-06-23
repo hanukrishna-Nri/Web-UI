@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donor Management Interface</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header align="center">
+        <h1>BLOOD DONOR MANAGEMENT INTERFACE</h1>
+        <p>Connecting Blood Donors and Recipients</p>
+        <hr>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav align="center">
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#donor">Donor Registration</a> |
+        <a href="#recipient">Blood Request</a> |
+        <a href="#donors">Available Donors</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome</h2>
+
+        <img src="blood_donation.jpg"
+             alt="Blood Donation"
+             width="500">
+
+        <p>
+            Blood donation is a noble act that helps save lives.
+            This Blood Donor Management Interface serves as a bridge
+            between donors and recipients by providing donor details,
+            blood requests, and awareness about blood donation.
+        </p>
+
+        <p>
+            Every drop of blood counts. Register as a donor and help
+            patients during emergencies.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2>About Blood Donation</h2>
+
+        <p>
+            Blood donation is the voluntary process of giving blood
+            that can be used for transfusions or made into medicines.
+        </p>
+
+        <h3>Why Blood Donation Matters?</h3>
+
+        <ul>
+            <li>Saves lives during emergencies.</li>
+            <li>Supports surgeries and medical treatments.</li>
+            <li>Helps accident victims.</li>
+            <li>Supports cancer patients.</li>
+            <li>Assists women during childbirth complications.</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Blood Groups -->
+    <section>
+
+        <h2>Blood Group Compatibility</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Blood Group</th>
+                <th>Can Donate To</th>
+                <th>Can Receive From</th>
+            </tr>
+
+            <tr>
+                <td>O-</td>
+                <td>All Groups</td>
+                <td>O-</td>
+            </tr>
+
+            <tr>
+                <td>O+</td>
+                <td>O+, A+, B+, AB+</td>
+                <td>O+, O-</td>
+            </tr>
+
+            <tr>
+                <td>A+</td>
+                <td>A+, AB+</td>
+                <td>A+, A-, O+, O-</td>
+            </tr>
+
+            <tr>
+                <td>B+</td>
+                <td>B+, AB+</td>
+                <td>B+, B-, O+, O-</td>
+            </tr>
+
+            <tr>
+                <td>AB+</td>
+                <td>AB+</td>
+                <td>All Groups</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Donor Registration -->
+    <section id="donor">
+
+        <h2>Donor Registration Form</h2>
+
+        <form>
+
+            <label>Full Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Age:</label><br>
+            <input type="number"><br><br>
+
+            <label>Gender:</label><br>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <br><br>
+
+            <label>Blood Group:</label><br>
+
+            <select>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select>
+
+            <br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>City:</label><br>
+            <input type="text"><br><br>
+
+            <label>Address:</label><br>
+            <textarea rows="4" cols="40"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Register">
+
+            <input type="reset" value="Clear">
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Recipient Form -->
+    <section id="recipient">
+
+        <h2>Blood Request Form</h2>
+
+        <form>
+
+            <label>Patient Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Required Blood Group:</label><br>
+
+            <select>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select>
+
+            <br><br>
+
+            <label>Units Required:</label><br>
+            <input type="number"><br><br>
+
+            <label>Hospital Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Contact Number:</label><br>
+            <input type="tel"><br><br>
+
+            <label>Emergency Details:</label><br>
+
+            <textarea rows="5" cols="50"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit Request">
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Donor Table -->
+    <section id="donors">
+
+        <h2>Available Donors</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Name</th>
+                <th>Blood Group</th>
+                <th>City</th>
+                <th>Contact</th>
+            </tr>
+
+            <tr>
+                <td>Ramesh</td>
+                <td>O+</td>
+                <td>Hyderabad</td>
+                <td>9876543210</td>
+            </tr>
+
+            <tr>
+                <td>Suresh</td>
+                <td>A+</td>
+                <td>Vijayawada</td>
+                <td>9876543211</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>B+</td>
+                <td>Visakhapatnam</td>
+                <td>9876543212</td>
+            </tr>
+
+            <tr>
+                <td>Anjali</td>
+                <td>AB+</td>
+                <td>Guntur</td>
+                <td>9876543213</td>
+            </tr>
+
+            <tr>
+                <td>Kiran</td>
+                <td>O-</td>
+                <td>Nellore</td>
+                <td>9876543214</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Benefits -->
+    <section>
+
+        <h2>Benefits of Blood Donation</h2>
+
+        <ol>
+            <li>Helps save lives.</li>
+            <li>Improves blood circulation.</li>
+            <li>Reduces harmful iron stores.</li>
+            <li>Provides free health screening.</li>
+            <li>Promotes community service.</li>
+            <li>Creates social responsibility.</li>
+        </ol>
+
+    </section>
+
+    <hr>
+
+    <!-- FAQ -->
+    <section>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Who can donate blood?</h3>
+
+        <p>
+            Healthy individuals aged 18-65 years can donate blood.
+        </p>
+
+        <h3>How often can I donate?</h3>
+
+        <p>
+            Every 3 months for whole blood donation.
+        </p>
+
+        <h3>Is blood donation safe?</h3>
+
+        <p>
+            Yes, blood donation is completely safe when performed
+            under medical supervision.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- Awareness Section -->
+    <section>
+
+        <h2>Blood Donation Awareness</h2>
+
+        <marquee>
+            Donate Blood - Save Lives - Be a Hero Today!
+        </marquee>
+
+        <p>
+            One donation can save up to three lives. Join our donor
+            community and become a life saver.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Blood Donor Management Center
+        </p>
+
+        <p>
+            Email:
+            support@blooddonor.org
+        </p>
+
+        <p>
+            Phone:
+            +91 9876543210
+        </p>
+
+        <p>
+            Address:
+            Vijayawada, Andhra Pradesh
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer align="center">
+
+        <h3>Thank You For Supporting Blood Donation</h3>
+
+        <p>
+            Every donor is a hero.
+        </p>
+
+        <p>
+            © 2026 Blood Donor Management Interface
+        </p>
+
+    </footer>
+
+</body>
+</html> 
