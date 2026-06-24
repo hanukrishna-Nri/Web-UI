@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Book Store</title>
+</head>
+<body>
+
+    <header>
+        <h1>Online Book Store</h1>
+        <p>Your One-Stop Destination for Books</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#categories">Categories</a> |
+        <a href="#books">Books</a> |
+        <a href="#offers">Offers</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to Our Book Store</h2>
+            <p>
+                Browse a wide collection of books from various categories
+                including fiction, technology, education, and self-development.
+            </p>
+        </section>
+
+        <section id="categories">
+            <h2>Book Categories</h2>
+
+            <ul>
+                <li>Fiction</li>
+                <li>Science & Technology</li>
+                <li>Education</li>
+                <li>Self-Help</li>
+                <li>Biography</li>
+                <li>History</li>
+            </ul>
+        </section>
+
+        <section id="books">
+            <h2>Available Books</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Book Cover</th>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td><img src="book1.jpg" alt="Book 1" width="80"></td>
+                    <td>The Great Adventure</td>
+                    <td>John Smith</td>
+                    <td>Fiction</td>
+                    <td>₹499</td>
+                    <td>In Stock</td>
+                </tr>
+
+                <tr>
+                    <td><img src="book2.jpg" alt="Book 2" width="80"></td>
+                    <td>HTML & Web Development</td>
+                    <td>David Wilson</td>
+                    <td>Technology</td>
+                    <td>₹699</td>
+                    <td>In Stock</td>
+                </tr>
+
+                <tr>
+                    <td><img src="book3.jpg" alt="Book 3" width="80"></td>
+                    <td>Learn Python</td>
+                    <td>Sarah Johnson</td>
+                    <td>Education</td>
+                    <td>₹799</td>
+                    <td>In Stock</td>
+                </tr>
+
+                <tr>
+                    <td><img src="book4.jpg" alt="Book 4" width="80"></td>
+                    <td>Success Habits</td>
+                    <td>Robert Brown</td>
+                    <td>Self-Help</td>
+                    <td>₹599</td>
+                    <td>Limited Stock</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="offers">
+            <h2>Special Offers</h2>
+
+            <ul>
+                <li>10% Discount on Technology Books</li>
+                <li>Buy 2 Get 1 Free on Fiction Books</li>
+                <li>Free Shipping on Orders Above ₹1000</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Purchase Information</h2>
+
+            <form>
+
+                <label for="name">Customer Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="book">Select Book:</label><br>
+                <select id="book" name="book">
+                    <option>The Great Adventure</option>
+                    <option>HTML & Web Development</option>
+                    <option>Learn Python</option>
+                    <option>Success Habits</option>
+                </select><br><br>
+
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+                <input type="submit" value="Buy Now">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+
+        <aside>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Wide Range of Books</li>
+                <li>Affordable Prices</li>
+                <li>Secure Ordering Process</li>
+                <li>Fast Delivery Service</li>
+                <li>Regular Discounts and Offers</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@onlinebookstore.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>&copy; 2026 Online Book Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
