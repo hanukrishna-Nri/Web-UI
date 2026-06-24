@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Educational website demonstrating accessibility standards and usability guidelines">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Educational Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Online Learning Portal</h1>
+        <p>Learn and grow with accessible educational resources.</p>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>
+                This educational website is designed to be accessible and easy to use
+                for all learners.
+            </p>
+        </section>
+
+        <section id="courses">
+            <h2>Available Courses</h2>
+
+            <article>
+                <h3>HTML Fundamentals</h3>
+                <p>
+                    Learn the basics of web development using HTML.
+                </p>
+            </article>
+
+            <article>
+                <h3>CSS Basics</h3>
+                <p>
+                    Understand how to style web pages using Cascading Style Sheets.
+                </p>
+            </article>
+
+            <article>
+                <h3>JavaScript Introduction</h3>
+                <p>
+                    Learn how to make websites interactive with JavaScript.
+                </p>
+            </article>
+        </section>
+
+        <section id="resources">
+            <h2>Learning Resources</h2>
+
+            <figure>
+                <img src="education.jpg" alt="Students learning in a classroom" width="300">
+                <figcaption>Students participating in an interactive learning session.</figcaption>
+            </figure>
+
+            <ul>
+                <li>Study Guides</li>
+                <li>Practice Exercises</li>
+                <li>Video Tutorials</li>
+                <li>Online Assessments</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Student Feedback Form</h2>
+
+            <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="course">Select Course:</label><br>
+                <select id="course" name="course">
+                    <option>HTML Fundamentals</option>
+                    <option>CSS Basics</option>
+                    <option>JavaScript Introduction</option>
+                </select><br><br>
+
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Accessibility Features</h2>
+        <ul>
+            <li>Semantic HTML elements</li>
+            <li>Descriptive headings</li>
+            <li>Alternative text for images</li>
+            <li>Proper form labels</li>
+            <li>Keyboard-friendly navigation</li>
+        </ul>
+    </aside>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@learningportal.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>&copy; 2026 Online Learning Portal</p>
+    </footer>
+
+</body>
+</html>
