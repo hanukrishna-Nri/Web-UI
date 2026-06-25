@@ -1,0 +1,49 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #e9ecef;
+    padding: 20px;
+    min-height: 250px;
+}
+
+/* Main Content */
+.content {
+    background-color: white;
+    padding: 20px;
+    min-height: 250px;
+    border: 1px solid #ddd;
+}
+
+/* Service Boxes */
+.service {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
