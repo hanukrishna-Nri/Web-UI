@@ -1,0 +1,86 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styling */
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Header */
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px;
+}
+
+/* Card Layout */
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* ==========================
+   Element Selector
+========================== */
+
+p{
+    color:#333;
+    font-size:18px;
+}
+
+/* ==========================
+   Class Selector
+========================== */
+
+.highlight{
+    background:yellow;
+    color:red;
+    padding:10px;
+    border-radius:5px;
+}
+
+/* ==========================
+   ID Selector
+========================== */
+
+#special{
+    background:#003366;
+    color:white;
+    padding:10px;
+    text-align:center;
+    border-radius:5px;
+}
+
+/* ==========================
+   Grouping Selector
+========================== */
+
+h3, h4{
+    color:green;
+    text-align:center;
+    margin:10px 0;
+}
+
+/* Footer */
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
