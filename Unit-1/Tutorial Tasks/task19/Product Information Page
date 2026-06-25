@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Information Page</title>
+  <!--  <link rel="stylesheet" href="../CSS/style.css">  -->
+</head>
+
+<body>
+
+    <!-- Product Heading -->
+    <h1>Product Information</h1>
+
+    <!-- Product Card -->
+    <div class="product">
+
+        <!-- Product Image -->
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"  alt="Smart Watch">
+             <div class="details">
+
+            <h2>Smart Watch</h2>
+
+            <p class="price">Price: ₹4,999</p>
+
+            <h3>Product Description</h3>
+            <p>
+                A modern smart watch with fitness tracking,
+                heart rate monitoring, and smart notifications.
+            </p>
+
+
+            <h3>Specifications</h3>
+
+            <ul>
+                <li>Display: AMOLED</li>
+                <li>Battery Life: 7 Days</li>
+                <li>Water Resistant</li>
+                <li>Bluetooth Connectivity</li>
+                <li>Compatibility: Android & iOS</li>
+            </ul>
+
+
+            <h3>Features</h3>
+
+            <ul>
+                <li>Fitness Tracking</li>
+                <li>Sleep Monitoring</li>
+                <li>Call & Message Alerts</li>
+                <li>Multiple Sports Modes</li>
+            </ul>
+
+
+            <button>Buy Now</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
