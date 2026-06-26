@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Gallery</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background-color:#f4f4f4;
+            padding:20px;
+        }
+
+        h1{
+            text-align:center;
+            color:#333;
+            margin-bottom:20px;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+            gap:15px;
+        }
+
+        .gallery img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            border-radius:10px;
+            transition:transform 0.3s ease;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.05);
+        }
+
+        .image-card{
+            overflow:hidden;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+            background:white;
+        }
+
+        .caption{
+            text-align:center;
+            padding:10px;
+            font-weight:bold;
+            color:#555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Responsive Image Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1015/600/400" alt="Nature">
+            <div class="caption">Nature</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1016/600/400" alt="Mountain">
+            <div class="caption">Mountain</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1025/600/400" alt="Dog">
+            <div class="caption">Dog</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1035/600/400" alt="Beach">
+            <div class="caption">Beach</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1043/600/400" alt="Forest">
+            <div class="caption">Forest</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1050/600/400" alt="River">
+            <div class="caption">River</div>
+        </div>
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1015/600/400" alt="Nature">
+            <div class="caption">Nature</div>
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.photos/id/1016/600/400" alt="Mountain">
+            <div class="caption">Mountain</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
