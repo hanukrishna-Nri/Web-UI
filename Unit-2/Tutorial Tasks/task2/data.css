@@ -1,0 +1,121 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Header */
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:36px;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+/* Font Families */
+.arial{
+    font-family:Arial, sans-serif;
+}
+
+.times{
+    font-family:"Times New Roman", serif;
+}
+
+.courier{
+    font-family:"Courier New", monospace;
+}
+
+/* Font Sizes */
+.small{
+    font-size:14px;
+}
+
+.medium{
+    font-size:20px;
+}
+
+.large{
+    font-size:30px;
+}
+
+/* Font Weights */
+.normal{
+    font-weight:normal;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.bolder{
+    font-weight:bolder;
+}
+
+/* Text Formatting */
+.italic{
+    font-style:italic;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+
+/* Alignment */
+.left{
+    text-align:left;
+}
+
+.center{
+    text-align:center;
+}
+
+.right{
+    text-align:right;
+}
+
+/* Footer */
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
