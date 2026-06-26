@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 80px auto 60px;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            min-height: 100vh;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 24px;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: #e8f5e9;
+            padding: 20px;
+        }
+
+        .main h2 {
+            margin-bottom: 15px;
+        }
+
+        .main p {
+            line-height: 1.6;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            CSS Grid Layout Demo
+        </header>
+
+        <aside class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <h2>Welcome to CSS Grid Layout</h2>
+            <p>
+                CSS Grid Layout is a powerful two-dimensional layout system
+                that allows developers to organize webpage content into rows
+                and columns efficiently.
+            </p>
+            <br>
+            <p>
+                This example demonstrates a simple webpage structure with a
+                header, sidebar, content area, and footer using CSS Grid.
+            </p>
+        </main>
+
+        <footer class="footer">
+            © 2026 CSS Grid Layout Tutorial
+        </footer>
+
+    </div>
+
+</body>
+</html>
