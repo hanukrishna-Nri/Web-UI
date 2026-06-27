@@ -61,14 +61,15 @@ Design a professional landing page promoting an innovative startup solution.
 
 ## Project Structure
 
-```
-Startup-Product-Landing-Website/
-│
-├── index.html
-├── style.css
-├── README.md
-└── screenshots/
-    └── output.png
+```text
+Web-UI.git/
+└── unit2/
+    └── Mini Projects/
+        └── project9/
+            ├── miniproject9.html
+            ├── style.css
+            ├── README.md
+            └── miniP9.mp4 (output)
 ```
 
 ---
@@ -77,7 +78,7 @@ Startup-Product-Landing-Website/
 
 1. Download or clone the project.
 2. Open the project folder in Visual Studio Code.
-3. Ensure that both `index.html` and `style.css` are in the same folder.
+3. Ensure that both `miniproject9.html` and `style.css` are in the same folder.
 4. Save all files.
 
 ---
@@ -85,7 +86,7 @@ Startup-Product-Landing-Website/
 ## How to Run the Project
 
 1. Open the project folder.
-2. Double-click **index.html** or open it using a web browser.
+2. Double-click **miniproject9.html** or open it using a web browser.
 3. The landing page will be displayed.
 
 ---
@@ -133,21 +134,13 @@ This project does **not** use JavaScript. It is developed using only HTML and Ex
 
 ---
 
-## Screenshots
+## Screenshots / Screen Recording
 
-Add screenshots of the following pages inside the **screenshots** folder.
 * Home Page
 * Features Section
 * About Section
 * Contact Form
 * Complete Landing Page
-
-Example:
-
-```
-screenshots/
-    output.png
-```
 
 ---
 
@@ -179,8 +172,6 @@ The webpage is clean, responsive, and suitable for promoting a startup product.
 ---
 
 ## Video Demonstration
-
-Record a short video showing:
 
 * Opening the project
 * Running the webpage
@@ -216,25 +207,23 @@ The Startup Product Landing Website successfully demonstrates the fundamentals o
 
 ## GitHub Repository
 
-Repository Name:
+**Repository Name:** `unit2`
 
-```
-Startup-Product-Landing-Website
-```
+**Repository Structure**
 
-Example Repository Structure:
-
-```
-Startup-Product-Landing-Website/
-│── index.html
-│── style.css
-│── README.md
-└── screenshots/
-    └── output.png
+```text
+Web-UI.git/
+└── unit2/
+    └── Mini Projects/
+        └── project9/
+            ├── miniproject9.html
+            ├── style.css
+            ├── README.md
+            └── miniP9.mp4 (output)
 ```
 
-Replace the repository URL below with your own after uploading the project:
+**Repository URL**
 
-```
-https://github.com/your-username/Startup-Product-Landing-Website
+```text
+https://github.com/hanukrishna-Nri/Web-UI.git
 ```
