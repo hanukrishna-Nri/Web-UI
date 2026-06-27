@@ -4,13 +4,16 @@
 
 The Startup Product Landing Website is a simple and responsive web page designed to promote an innovative startup product or service. The website provides visitors with an overview of the company, highlights its key features, and includes a contact form for user inquiries. The project demonstrates the fundamentals of HTML and CSS for creating a modern landing page.
 
+---
 
 ## Problem Statement
+
 Design a professional landing page promoting an innovative startup solution.
 
-
+---
 
 ## Objectives
+
 * Develop a clean and attractive landing page.
 * Create an easy-to-use navigation menu.
 * Display the startup's features in an organized layout.
@@ -18,9 +21,10 @@ Design a professional landing page promoting an innovative startup solution.
 * Include a Contact form for customer communication.
 * Apply external CSS for styling and page layout.
 
-
+---
 
 ## Features
+
 * Responsive page layout
 * Navigation bar
 * Hero section with call-to-action button
@@ -30,54 +34,64 @@ Design a professional landing page promoting an innovative startup solution.
 * Footer with copyright information
 * Simple and user-friendly interface
 
-
+---
 
 ## Technologies Used
+
 * HTML5
 * CSS3 (External CSS)
 
-
+---
 
 ## Software Requirements
+
 ### Hardware
 
 * Computer/Laptop
 * Minimum 4 GB RAM
 
 ### Software
+
 * Visual Studio Code
 * Google Chrome / Microsoft Edge / Mozilla Firefox
 * Git (Optional)
 * GitHub Account (Optional)
 
-
+---
 
 ## Project Structure
-Web-UI.git/unit2/Mini Projects/project9
-│── miniproject9.html
-│── style.css
-│── README.md
-└── miniP9.mp4(output)
 
+```
+Startup-Product-Landing-Website/
+│
+├── index.html
+├── style.css
+├── README.md
+└── screenshots/
+    └── output.png
+```
 
-
+---
 
 ## Installation and Setup
+
 1. Download or clone the project.
 2. Open the project folder in Visual Studio Code.
-3. Ensure that both `miniproject9.html` and `style.css` are in the same folder.
+3. Ensure that both `index.html` and `style.css` are in the same folder.
 4. Save all files.
 
-
+---
 
 ## How to Run the Project
+
 1. Open the project folder.
-2. Double-click **miniproject9.html** or open it using a web browser.
+2. Double-click **index.html** or open it using a web browser.
 3. The landing page will be displayed.
 
-
+---
 
 ## HTML Components Used
+
 * `<!DOCTYPE html>`
 * `<html>`
 * `<head>`
@@ -96,9 +110,10 @@ Web-UI.git/unit2/Mini Projects/project9
 * `<textarea>`
 * `<footer>`
 
-
+---
 
 ## CSS Styling Features
+
 * External CSS stylesheet
 * Background colors
 * Text formatting
@@ -110,18 +125,34 @@ Web-UI.git/unit2/Mini Projects/project9
 * Responsive layout
 * Form styling
 
+---
+
 ## JavaScript Functionality
+
 This project does **not** use JavaScript. It is developed using only HTML and External CSS.
 
+---
 
-## Screenshots/screenrecord
+## Screenshots
+
+Add screenshots of the following pages inside the **screenshots** folder.
 * Home Page
 * Features Section
 * About Section
 * Contact Form
 * Complete Landing Page
 
+Example:
+
+```
+screenshots/
+    output.png
+```
+
+---
+
 ## Output Results
+
 The project successfully displays:
 
 * Startup company name
@@ -134,9 +165,10 @@ The project successfully displays:
 
 The webpage is clean, responsive, and suitable for promoting a startup product.
 
-
+---
 
 ## User Manual
+
 1. Open the landing page.
 2. Navigate using the menu.
 3. Read about the startup.
@@ -144,8 +176,12 @@ The webpage is clean, responsive, and suitable for promoting a startup product.
 5. Fill in the contact form.
 6. Click the **Send** button.
 
+---
 
 ## Video Demonstration
+
+Record a short video showing:
+
 * Opening the project
 * Running the webpage
 * Navigation menu
@@ -155,9 +191,10 @@ The webpage is clean, responsive, and suitable for promoting a startup product.
 * Contact form
 * Final output
 
-
+---
 
 ## Learning Outcomes
+
 After completing this project, the following concepts are learned:
 
 * HTML page structure
@@ -169,24 +206,35 @@ After completing this project, the following concepts are learned:
 * Basic web page styling
 * Landing page development
 
-
+---
 
 ## Conclusion
+
 The Startup Product Landing Website successfully demonstrates the fundamentals of front-end web development using HTML and CSS. It provides a professional interface for showcasing a startup product while improving practical skills in webpage design, layout creation, and responsive styling.
 
+---
 
 ## GitHub Repository
+
 Repository Name:
-unit2
+
+```
+Startup-Product-Landing-Website
+```
 
 Example Repository Structure:
 
-
-Web-UI.git/unit2/Mini Projects/project9
-│── miniproject9.html
+```
+Startup-Product-Landing-Website/
+│── index.html
 │── style.css
 │── README.md
-└── miniP9.mp4(output)
+└── screenshots/
+    └── output.png
+```
 
-https://github.com/hanukrishna-Nri/Web-UI.git
+Replace the repository URL below with your own after uploading the project:
 
+```
+https://github.com/your-username/Startup-Product-Landing-Website
+```
