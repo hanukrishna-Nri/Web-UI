@@ -157,7 +157,7 @@ Netflix demonstrates an excellent implementation of responsive web design princi
 
 ## 👩‍💻 Author
 
-**Name:** __Jyothsna__
+**Name:**
 
 **Course:** Web User Interface Design
 
