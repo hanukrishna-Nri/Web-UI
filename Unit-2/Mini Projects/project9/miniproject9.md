@@ -149,7 +149,7 @@ The project successfully displays:
 
 The webpage is clean, responsive, and suitable for promoting a startup product.
 
----
+
 
 ## User Manual
 
@@ -160,7 +160,6 @@ The webpage is clean, responsive, and suitable for promoting a startup product.
 5. Fill in the contact form.
 6. Click the **Send** button.
 
----
 
 ## Video Demonstration
 
@@ -173,7 +172,7 @@ The webpage is clean, responsive, and suitable for promoting a startup product.
 * Contact form
 * Final output
 
----
+
 
 ## Learning Outcomes
 
@@ -188,7 +187,7 @@ After completing this project, the following concepts are learned:
 * Basic web page styling
 * Landing page development
 
----
+
 
 ## Conclusion
 
