@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.btn {
+    padding: 15px 35px;
+    margin: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+
+/* Scale Button */
+.btn1 {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #2ecc71;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px gray;
+}
+
+
+/* Lift Button */
+.btn2 {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #f39c12;
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px gray;
+}
+
+
+/* Rotate Button */
+.btn3 {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.btn3:hover {
+    background-color: #1abc9c;
+    transform: rotate(5deg);
+    letter-spacing: 3px;
+}
+
+
+/* Smooth Hover Button */
+.btn4 {
+    background-color: #34495e;
+    color: white;
+}
+
+.btn4:hover {
+    background-color: black;
+    border-radius: 0px;
+    transform: scale(1.15);
+}

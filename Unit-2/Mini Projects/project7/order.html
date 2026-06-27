@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online | Foodie's Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            🍴 Foodie's Paradise
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html" class="active">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="page-banner">
+    <h1>Order Your Favorite Food</h1>
+    <p>
+        Fresh, Hot & Delivered Fast
+    </p>
+</section>
+<section class="order-page">
+    <div class="order-form-container">
+        <h2>Customer Information</h2>
+        <form>
+            <label>Full Name</label>
+            <input
+            type="text"
+            placeholder="Enter your full name"
+            required>
+            <label>Mobile Number</label>
+            <input
+            type="tel"
+            placeholder="Enter your phone number"
+            required>
+            <label>Email Address</label>
+            <input
+            type="email"
+            placeholder="Enter your email"
+            required>
+            <label>Select Food Item</label>
+            <select required>
+                <option>Classic Burger - ₹249</option>
+                <option>Cheese Pizza - ₹399</option>
+                <option>White Sauce Pasta - ₹299</option>
+                <option>French Fries - ₹149</option>
+                <option>Chocolate Lava Cake - ₹199</option>
+                <option>Cold Coffee - ₹129</option>
+            </select>
+            <label>Quantity</label>
+            <input
+            type="number"
+            min="1"
+            value="1"
+            required>
+            <label>Delivery Address</label>
+            <textarea
+            rows="5"
+            placeholder="Enter complete delivery address"
+            required></textarea>
+            <label>Payment Method</label>
+            <select required>
+                <option>Cash On Delivery</option>
+                <option>UPI Payment</option>
+                <option>Debit Card</option>
+                <option>Credit Card</option>
+                <option>Net Banking</option>
+            </select>
+            <button type="submit" class="place-order-btn">
+                <i class="fas fa-shopping-bag"></i>
+                Place Order
+            </button>
+        </form>
+    </div>
+    <div class="order-summary">
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+            <span>Classic Burger</span>
+            <span>₹249</span>
+        </div>
+        <div class="cart-item">
+            <span>French Fries</span>
+            <span>₹149</span>
+        </div>
+        <hr>
+        <div class="cart-item">
+            <strong>Subtotal</strong>
+            <strong>₹398</strong>
+        </div>
+        <div class="cart-item">
+            <strong>Delivery Fee</strong>
+            <strong>₹50</strong>
+        </div>
+        <div class="cart-item total">
+            <strong>Total</strong>
+            <strong>₹448</strong>
+        </div>
+        <button class="checkout-btn">
+            Proceed To Checkout
+        </button>
+    </div>
+</section>
+<section class="offers-section">
+    <h2>Special Offers</h2>
+    <div class="offers-container">
+        <div class="offer-card">
+            <h3>Family Combo</h3>
+            <p>
+                2 Burgers + 2 Fries + 2 Drinks
+            </p>
+            <h4>₹799</h4>
+        </div>
+        <div class="offer-card">
+            <h3>Pizza Party Combo</h3>
+            <p>
+                2 Large Pizzas + Garlic Bread
+            </p>
+            <h4>₹999</h4>
+        </div>
+        <div class="offer-card">
+            <h3>Weekend Special</h3>
+            <p>
+                Flat 20% OFF on Orders Above ₹1000
+            </p>
+            <h4>Use Code: FOOD20</h4>
+        </div>
+    </div>
+</section>
+<section class="reservation-section">
+    <h2>Reserve A Table</h2>
+    <form class="reservation-form">
+        <input type="text" placeholder="Your Name">
+        <input type="date">
+        <input type="time">
+        <input type="number" placeholder="Guests">
+        <button class="reserve-btn">
+            Reserve Now
+        </button>
+    </form>
+</section>
+<footer>
+    <p>
+        © 2026 Foodie's Paradise Restaurant
+    </p>
+</footer>
+</body>
+</html>
