@@ -1,223 +1,241 @@
-# Restaurant Website
 
-## Project Overview
+# Mini Project 7: Restaurant Website
 
-The Restaurant Website is a responsive web application developed using HTML and CSS. It provides users with an attractive interface to explore the restaurant's menu, services, and contact information. The website is designed with a simple navigation system and responsive layout to ensure a good user experience on desktops, tablets, and mobile devices.
+## Project Title
+
+*Responsive Restaurant Website*
 
 ---
 
-## Problem Statement
+# Project Overview
+
+The Responsive Restaurant Website is a modern and user-friendly website developed using HTML and CSS. It presents restaurant information in an attractive layout with sections such as Home, Menu, Services, About, Contact, and Footer. The website is fully responsive, ensuring proper display on desktops, tablets, and mobile devices.
+
+---
+
+# Problem Statement
 
 Design a responsive restaurant website displaying menu items, services, and contact information.
 
 ---
 
-## Objectives
+# Objectives
 
-* Design a responsive restaurant website.
-* Display food menu items with images and prices.
-* Provide information about restaurant services.
-* Display contact details along with a contact form.
-* Create an attractive and user-friendly interface.
-* Implement responsive web design using CSS.
-
----
-
-## Features
-
-* Responsive navigation bar
-* Home page with welcome section
-* Attractive menu displaying food items
-* Restaurant services page
-* Contact page with contact form
-* Responsive layout using CSS Media Queries
-* External CSS styling
-* Multi-page website
+* Design an attractive restaurant homepage.
+* Display food menu with prices.
+* Show restaurant services.
+* Provide restaurant contact details.
+* Create a responsive layout using CSS.
+* Improve user experience with modern design.
 
 ---
 
-## Technologies Used
+# Features
+
+* Responsive Navigation Bar
+* Hero Section with Restaurant Banner
+* About Restaurant Section
+* Food Menu Cards
+* Services Section
+* Contact Information
+* Social Media Icons
+* Responsive Footer
+* Mobile-Friendly Design
+
+---
+
+# Technologies Used
 
 * HTML5
 * CSS3
+* Google Fonts
+* Font Awesome Icons (Optional)
 
 ---
 
-## Software Requirements
+# Software Requirements
 
-### Hardware Requirements
+### Hardware
 
 * Computer/Laptop
 * Minimum 4 GB RAM
-* Internet Connection (optional for online images)
+* Internet Connection (Optional)
 
-### Software Requirements
+### Software
 
 * Visual Studio Code
-* Google Chrome / Microsoft Edge
+* Google Chrome
 * HTML5
 * CSS3
 
 ---
 
-## Project Structure
+# Project Structure
 
-```
-Restaurant-Website/
+
+Restaurant Website
+
 │
 ├── index.html
-├── menu.html
-├── services.html
-├── contact.html
 ├── style.css
-└── images/
-    ├── pizza.jpg
-    ├── burger.jpg
-    ├── biryani.jpg
-    └── icecream.jpg
-```
+├── images
+│     ├── banner.jpg
+│     ├── pizza.jpg
+│     ├── burger.jpg
+│     ├── pasta.jpg
+│     └── dessert.jpg
+└── README.md
+
 
 ---
 
-## Installation and Setup
+# Modules
 
-1. Install Visual Studio Code.
-2. Create a project folder named **Restaurant-Website**.
-3. Add all HTML files and the CSS file.
-4. Create an **images** folder and place all required images inside it.
-5. Open the project folder in Visual Studio Code.
+## 1. Home
 
----
+Displays restaurant welcome message and attractive banner.
 
-## How to Run the Project
+## 2. About
 
-1. Open **index.html** in Visual Studio Code.
-2. Install the **Live Server** extension (optional).
-3. Right-click **index.html**.
-4. Select **Open with Live Server**.
-5. The website will open in your default web browser.
+Provides information about the restaurant.
 
-Alternatively, double-click **index.html** to open it directly in a web browser.
+## 3. Menu
 
----
+Displays food items with images and prices.
 
-## HTML Components Used
+## 4. Services
 
-* HTML Document Structure
-* Header
-* Navigation Bar
-* Section
-* Div
-* Heading Tags (h1–h4)
-* Paragraph
-* Images
-* Anchor Tags
-* Forms
-* Input Fields
-* Textarea
-* Button
-* Footer
+Shows available services such as:
+
+* Dine In
+* Home Delivery
+* Online Ordering
+* Catering
+
+## 5. Contact
+
+Displays:
+
+* Address
+* Phone Number
+* Email
+* Working Hours
+
+## 6. Footer
+
+Contains copyright and social media links.
 
 ---
 
-## CSS Styling Features
+# Responsive Design Features
 
-* External CSS
-* Flexbox Layout
-* CSS Grid
-* Responsive Design
-* Media Queries
-* Hover Effects
-* Box Shadows
-* Border Radius
-* Typography Styling
-* Background Colors
-* Spacing and Alignment
-
----
-
-## JavaScript Functionality
-
-No JavaScript is used in this project because the project is designed using HTML and CSS only.
-
----
-
-## Screenshots
-
-Include screenshots of the following pages:
-
-* Home Page
-* Menu Page
-* Services Page
-* Contact Page
-
----
-
-## Output Results
-
-The project successfully provides:
-
-* Responsive restaurant website
-* Easy navigation between pages
-* Attractive menu display
-* Restaurant service information
-* Contact form
-* Mobile-friendly layout
-
----
-
-## User Manual
-
-1. Open the Home page.
-2. Use the navigation bar to switch between pages.
-3. Click **Menu** to view available food items.
-4. Click **Services** to view restaurant services.
-5. Click **Contact** to view restaurant details and send a message using the contact form.
-6. Navigate back to the Home page using the navigation menu.
-
----
-
-## Video Demonstration
-
-Record a 2–5 minute demonstration covering:
-
-* Project Introduction
-* Home Page
-* Navigation
-* Menu Page
-* Services Page
-* Contact Page
-* Responsive Design (Resize Browser Window)
-* Project Conclusion
-
----
-
-## Learning Outcomes
-
-After completing this project, the following concepts were learned:
-
-* HTML page structure
-* Navigation between web pages
-* Responsive Web Design
+* Flexible Layout
 * CSS Flexbox
 * CSS Grid
 * Media Queries
-* Form Design
-* Website Layout Design
-* External CSS Implementation
+* Mobile Navigation
+* Responsive Images
 
 ---
 
-## Conclusion
+# HTML Components Used
 
-The Restaurant Website project successfully demonstrates the implementation of responsive web design using HTML and CSS. It provides an attractive interface for displaying restaurant information, menu items, services, and contact details while ensuring compatibility across different screen sizes.
+* <header>
+* <nav>
+* <section>
+* <article>
+* <div>
+* <img>
+* <h1> to <h4>
+* <p>
+* <button>
+* <footer>
 
 ---
 
-## GitHub Repository
+# CSS Styling Features
 
-GitHub Repository Link:
+* External CSS
+* Flexbox
+* Grid Layout
+* Hover Effects
+* Box Shadow
+* Border Radius
+* Background Image
+* Responsive Media Queries
+* Smooth Scrolling
 
-```
-https://github.com/JyothsnaPogiri23/WEB-USER-INTERFACE-DESIGN
-```
+---
+
+# Installation and Setup
+
+1. Install Visual Studio Code.
+2. Create a project folder.
+3. Add:
+
+   * index.html
+   * style.css
+   * images folder
+4. Open the project in VS Code.
+5. Run using Live Server or open index.html in a web browser.
+
+---
+
+# How to Run the Project
+
+1. Open the project folder.
+2. Double-click *index.html*.
+3. The restaurant website opens in your browser.
+4. Resize the browser window to test responsiveness.
+
+---
+
+# Expected Output
+
+The website displays:
+
+* Responsive Navigation Bar
+* Attractive Restaurant Banner
+* Food Menu Cards
+* Restaurant Services
+* Contact Information
+* Footer Section
+
+---
+
+# Advantages
+
+* Easy to use
+* Attractive interface
+* Mobile responsive
+* Fast loading
+* Simple navigation
+* Modern design
+* Easy to maintain
+
+---
+
+# Future Enhancements
+
+* Online Table Reservation
+* Food Ordering System
+* Payment Gateway
+* Customer Login
+* Admin Dashboard
+* Customer Reviews
+* Google Maps Integration
+* Dark Mode
+
+---
+
+# Conclusion
+
+The *Responsive Restaurant Website* provides a modern and user-friendly platform for showcasing restaurant information, menu items, services, and contact details. The project demonstrates the use of HTML5 and CSS3 to build a responsive and visually appealing website that works efficiently across different devices.
+
+---
+
+## Files Required
+
+* index.html
+* style.css
+* images/ (restaurant and food images)
