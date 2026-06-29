@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 30 – Responsive Website</title>
+  <style>
+    /* CSS Variables */
+    :root { --blue: #2563eb; --gold: #f59e0b; --dark: #1e293b; }
+
+    body      { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #333; }
+
+    /* Nav – Flexbox */
+    header    { background: var(--dark); padding: 0 20px; display: flex; justify-content: space-between; align-items: center; height: 55px; }
+    header a  { color: var(--gold); text-decoration: none; font-weight: bold; font-size: 1.1rem; }
+    nav a     { color: #ccc; text-decoration: none; margin-left: 15px; font-size: 0.88rem; }
+    nav a:hover { color: var(--gold); }
+
+    /* Hero */
+    .hero     { background: var(--dark); color: white; text-align: center; padding: 50px 20px; }
+    .hero p   { color: #aaa; max-width: 480px; margin: 10px auto 20px; }
+    .btn      { background: var(--gold); color: var(--dark); padding: 10px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+
+    /* Features – CSS Grid */
+    .features      { max-width: 900px; margin: 30px auto; padding: 0 15px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    .card          { background: white; border-top: 3px solid var(--blue); padding: 20px; border-radius: 6px; text-align: center; }
+    .card .icon    { font-size: 1.8rem; margin-bottom: 8px; }
+    .card h3       { margin: 0 0 5px; font-size: 1rem; }
+    .card p        { margin: 0; font-size: 0.85rem; color: #666; }
+
+    /* Stats – Flexbox */
+    .stats         { background: var(--blue); color: white; padding: 25px; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px; text-align: center; }
+    .stat h2       { margin: 0; font-size: 1.8rem; }
+    .stat p        { margin: 0; font-size: 0.82rem; color: rgba(255,255,255,0.75); }
+
+    /* Contact Form */
+    .contact       { max-width: 500px; margin: 30px auto; padding: 0 15px; }
+    .contact h2    { text-align: center; margin-bottom: 20px; }
+    .contact input,
+    .contact textarea { width: 100%; padding: 10px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.9rem; font-family: inherit; box-sizing: border-box; }
+    .contact textarea  { height: 100px; resize: vertical; }
+    .contact .btn      { display: block; text-align: center; }
+
+    footer    { background: var(--dark); color: #777; text-align: center; padding: 15px; font-size: 0.82rem; margin-top: 30px; }
+
+  </style>
+</head>
+<body>
+
+  <!-- Nav (Flexbox) -->
+  <header>
+    <a href="#">Nexus</a>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Stats</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Build Something Great</h1>
+    <p>A simple responsive site using CSS variables, grid, flexbox, and media queries.</p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+
+  <!-- Features (CSS Grid) -->
+  <div class="features">
+    <div class="card">
+      <div class="icon">&#128187;</div>
+      <h3>Responsive</h3>
+      <p>Looks good on all screen sizes using media queries.</p>
+    </div>
+    <div class="card">
+      <div class="icon">&#127774;</div>
+      <h3>CSS Variables</h3>
+      <p>Colours are stored in :root for easy theming.</p>
+    </div>
+    <div class="card">
+      <div class="icon">&#9889;</div>
+      <h3>Grid & Flex</h3>
+      <p>Layout is built with CSS Grid and Flexbox together.</p>
+    </div>
+  </div>
+
+  <!-- Stats (Flexbox) -->
+  <div class="stats">
+    <div class="stat"><h2>3</h2><p>Layout Methods</p></div>
+    <div class="stat"><h2>100%</h2><p>Responsive</p></div>
+    <div class="stat"><h2>0</h2><p>JavaScript Used</p></div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <input type="text"  placeholder="Your Name" />
+    <input type="email" placeholder="Your Email" />
+    <textarea placeholder="Your message..."></textarea>
+    <a href="#" class="btn">Send Message</a>
+  </div>
+
+  <footer>&copy; 2025 Nexus &mdash; Tutorial Task 30</footer>
+
+</body>
+</html>
