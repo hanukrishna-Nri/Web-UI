@@ -1,0 +1,157 @@
+body
+{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+header
+{
+    background:#ff6600;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav
+{
+    background:#cc5200;
+    text-align:center;
+    padding:15px;
+}
+
+nav a
+{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover
+{
+    color:yellow;
+}
+
+.container
+{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.container h2
+{
+    color:#cc5200;
+}
+
+.products
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.card
+{
+    width:220px;
+    background:white;
+    margin:15px;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0px 0px 8px gray;
+}
+
+.icon
+{
+    font-size:50px;
+}
+
+.card h3
+{
+    color:#ff6600;
+}
+
+button
+{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover
+{
+    background:#cc5200;
+}
+
+form
+{
+    width:50%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 8px gray;
+}
+
+input[type=email],
+input[type=password]
+{
+    width:100%;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+input[type=submit]
+{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover
+{
+    background:#cc5200;
+}
+
+footer
+{
+    background:#cc5200;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media(max-width:768px)
+{
+    .products
+    {
+        display:block;
+    }
+
+    .card
+    {
+        width:90%;
+        margin:20px auto;
+    }
+
+    form
+    {
+        width:90%;
+    }
+
+    nav a
+    {
+        display:block;
+        margin:10px;
+    }
+}
