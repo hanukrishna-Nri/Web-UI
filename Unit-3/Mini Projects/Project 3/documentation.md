@@ -1,8 +1,4 @@
-# **Mini Project 3: College Event Management Interface (Without JavaScript)**
-
----
-
-# **Project Title**
+## **Project Title**
 
 **College Event Management Interface**
 
