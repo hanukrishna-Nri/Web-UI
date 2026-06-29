@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 29 – Blog Theme</title>
+  <style>
+    body     { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header   { background: #222; color: white; padding: 15px 20px; }
+    header a { color: #f0a500; text-decoration: none; font-size: 1.3rem; font-weight: bold; }
+    nav a    { color: #ccc; text-decoration: none; margin-right: 15px; font-size: 0.9rem; }
+    nav a:hover { color: #f0a500; }
+
+    .hero    { background: #333; color: white; text-align: center; padding: 40px 20px; }
+    .hero p  { color: #aaa; }
+
+    .layout  { display: flex; gap: 20px; max-width: 900px; margin: 20px auto; padding: 0 15px; }
+
+    .posts   { flex: 2; }
+    .card    { background: white; border-left: 4px solid #f0a500; padding: 15px; margin-bottom: 15px; border-radius: 4px; }
+    .card h3 { margin: 0 0 5px; }
+    .card p  { margin: 0; font-size: 0.9rem; color: #555; }
+    .meta    { font-size: 0.75rem; color: #999; margin-bottom: 5px; }
+
+    .sidebar { flex: 1; }
+    .box     { background: white; padding: 15px; margin-bottom: 15px; border-radius: 4px; }
+    .box h3  { margin: 0 0 8px; font-size: 0.85rem; color: #999; text-transform: uppercase; }
+    .box ul  { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+
+    footer   { background: #222; color: #777; text-align: center; padding: 12px; font-size: 0.8rem; }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#">Inkwell</a>
+    <nav style="margin-top:8px;">
+      <a href="#">Home</a>
+      <a href="#">Tech</a>
+      <a href="#">Design</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Stories Worth Reading</h1>
+    <p>Design &bull; Technology &bull; Creative Life</p>
+  </div>
+
+  <div class="layout">
+
+    <main class="posts">
+      <div class="card">
+        <p class="meta">June 20, 2025 &bull; Design</p>
+        <h3>Why White Space Matters</h3>
+        <p>Negative space guides the eye and creates visual balance in any layout.</p>
+      </div>
+      <div class="card">
+        <p class="meta">June 15, 2025 &bull; Technology</p>
+        <h3>CSS Grid vs Flexbox</h3>
+        <p>Both are powerful tools — but they solve different layout problems.</p>
+      </div>
+      <div class="card">
+        <p class="meta">June 10, 2025 &bull; Life</p>
+        <h3>Build a Daily Writing Habit</h3>
+        <p>Small daily sessions compound into a body of work faster than you think.</p>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <div class="box">
+        <h3>Categories</h3>
+        <ul>
+          <li>Design (8)</li>
+          <li>Technology (12)</li>
+          <li>Creative Life (5)</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>About</h3>
+        <p style="font-size:0.88rem; color:#555; margin:0;">A simple blog about design and code.</p>
+      </div>
+    </aside>
+
+  </div>
+
+  <footer>&copy; 2025 Inkwell &mdash; Tutorial Task 29</footer>
+
+</body>
+</html>
