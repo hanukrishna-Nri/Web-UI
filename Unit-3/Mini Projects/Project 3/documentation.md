@@ -1,4 +1,4 @@
-## **Project Title**
+# **Project Title**
 
 **College Event Management Interface**
 
