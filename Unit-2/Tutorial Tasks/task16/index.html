@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Query Demonstration</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            text-align:center;
+            background:lightgray;
+        }
+
+        h1{
+            color:blue;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            padding:20px;
+        }
+
+        .box{
+            width:200px;
+            height:150px;
+            background:orange;
+            color:white;
+            line-height:150px;
+            font-size:20px;
+        }
+
+        /* Tablet View */
+
+        @media screen and (max-width:768px){
+
+            body{
+                background:lightgreen;
+            }
+
+            .container{
+                flex-direction:column;
+                align-items:center;
+            }
+
+            h1{
+                color:green;
+            }
+
+        }
+
+        /* Mobile View */
+
+        @media screen and (max-width:480px){
+
+            body{
+                background:lightblue;
+            }
+
+            h1{
+                color:red;
+                font-size:25px;
+            }
+
+            .box{
+                width:150px;
+                height:100px;
+                line-height:100px;
+                font-size:18px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Media Query Demonstration</h1>
+
+<p>Resize the browser window to see the layout change.</p>
+
+<div class="container">
+
+    <div class="box">Box 1</div>
+
+    <div class="box">Box 2</div>
+
+    <div class="box">Box 3</div>
+
+</div>
+
+</body>
+</html>

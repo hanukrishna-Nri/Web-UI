@@ -1,0 +1,150 @@
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+
+}
+
+
+h1 {
+
+    color: #333;
+
+}
+
+
+
+/* Circular Spinner */
+
+.spinner {
+
+    width: 80px;
+    height: 80px;
+    border: 10px solid #ddd;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    margin: 30px auto;
+
+    animation: rotate 1s linear infinite;
+
+}
+
+
+@keyframes rotate {
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+
+/* Loading Dots */
+
+.dots {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+
+}
+
+
+.dot {
+
+    width: 20px;
+    height: 20px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+
+    animation: bounce 0.6s infinite alternate;
+
+}
+
+
+.dot:nth-child(2) {
+
+    animation-delay: 0.2s;
+
+}
+
+
+.dot:nth-child(3) {
+
+    animation-delay: 0.4s;
+
+}
+
+
+@keyframes bounce {
+
+    from {
+
+        transform: translateY(0);
+
+    }
+
+    to {
+
+        transform: translateY(-20px);
+
+    }
+
+}
+
+
+
+/* Loading Bar */
+
+.loading-bar {
+
+    width: 300px;
+    height: 20px;
+    background-color: #ddd;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.progress {
+
+    width: 0%;
+    height: 100%;
+    background-color: #2ecc71;
+
+    animation: load 3s infinite;
+
+}
+
+
+
+@keyframes load {
+
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+
+        width: 100%;
+
+    }
+
+}
